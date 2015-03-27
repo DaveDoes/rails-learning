@@ -9,6 +9,5 @@ deploy:
     secure: AwBk4/nHmRd7C+kYjKg04+RoMpeHAW7XRMa15T/DuO1041BMai2rLQxP5yOmnGj3swpoRXdze14EnafW0XARIWOWsbK88mNgGc9FBg2sF0KurMOihFSFBGIEMpOwsEeb3TfvEXHM7JnmBWBJiDCcm2YdRJI3NJSeXQuhDCx51K8=
   bucket: www.stashd.us
   skip_cleanup: true
-  acl: ''
   on:
     repo: DaveDoes/rails-learning
