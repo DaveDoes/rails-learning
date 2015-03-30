@@ -4,13 +4,13 @@ rvm:
 - 2.1.1
 
 deploy:
-  provider: s3
+  provider: elasticbeanstalk
   access_key_id: AKIAIF2OBRFQWTDKLJXA
   secret_access_key:
     secure: AwBk4/nHmRd7C+kYjKg04+RoMpeHAW7XRMa15T/DuO1041BMai2rLQxP5yOmnGj3swpoRXdze14EnafW0XARIWOWsbK88mNgGc9FBg2sF0KurMOihFSFBGIEMpOwsEeb3TfvEXHM7JnmBWBJiDCcm2YdRJI3NJSeXQuhDCx51K8=
-  bucket: www.stashd.us
-  skip_cleanup: true
-  local_dir: pkg
-  upload_dir: learning-app
+  region: us-east-1
+  app: rails-learning
+  env: rails-learning-dev-env
+  bucket: elasticbeanstalk-us-west-2-683025991281
   on:
     repo: DaveDoes/rails-learning
