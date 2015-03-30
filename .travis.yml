@@ -11,6 +11,7 @@ deploy:
   region: us-east-1
   app: rails-learning
   env: rails-learning-dev-env
-  bucket: elasticbeanstalk-us-west-2-683025991281
+  bucket_name: elasticbeanstalk-us-west-2-683025991281
+  skip_cleanup: true
   on:
     repo: DaveDoes/rails-learning
